@@ -12,7 +12,7 @@ Joint Vision is a state-of-the-art multimodal deep learning application designed
 
 - ✅ **Automatic Detection**: Identify presence of osteoarthritis from knee X-rays with high accuracy
 - 📊 **KL Grading**: Perform Kellgren-Lawrence grading (0-4 scale) for disease severity assessment
-- 🧠 **Model Ensemble**: Leverages multiple architectures (ViT, ResNet50, DenseNet-121, EfficientNet-B8, VGG16,Xception) for robust predictions
+- 🧠 **Model Ensemble**: Leverages multiple architectures (ViT, ResNet50, DenseNet-121, EfficientNet-B8, VGG16) for robust predictions
 - 💬 **Clinical Reporting**: Generates natural language clinical suggestions using LLaMA-3
 - 📈 **Visualization**: Interactive heatmaps highlighting affected regions
 - ⚡ **Performance**: Optimized for speed with local LLM deployment via Ollama
@@ -98,12 +98,14 @@ Joint Vision is built on a modular architecture:
 
 ## Model Performance
 
-The Joint Vision ensemble achieves:
-
-- 94.2% accuracy in OA detection
-- 87.6% accuracy in KL grading
-- Average inference time of 1.2 seconds per image
-- Clinical reporting generation in under 3 seconds
+| Model | Balanced Accuracy |
+|-------|-----------------|
+| ResNet-50 | 63% |
+| VGG-16 | 59% |
+| Vision Transformer (ViT) | 69% |
+| DenseNet-121 | 65% |
+| EfficientNet | 66% |
+| Xception | 72% |
 
 ## Project Structure
 
@@ -135,6 +137,7 @@ knee_OA_dl_app/
 - Longitudinal tracking of patient progression
 - Enhanced explainability with more detailed visual annotations
 - Mobile application for point-of-care use
+
 
 
 ## License
