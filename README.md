@@ -143,9 +143,3 @@ knee_OA_dl_app/
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## Acknowledgements
-
-- The development of Joint Vision was supported by [Your Institution]
-- Special thanks to the OAI (Osteoarthritis Initiative) for the dataset
-- The LLaMA-3 model is provided by Meta AI Research
